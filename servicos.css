@@ -1,0 +1,119 @@
+h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+body{
+    background-color: brown;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+nav li{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+nav a:hover{
+    color: aquamarine;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+
+nav{
+    text-align: left;
+    position: absolute;
+    top: 225px;
+    left: 10px;
+}
+.logo{
+    width: 12%;
+    border-color: bisque;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
+    margin: 10px 0 0; 
+}
+ul{
+    margin-left: 25px;
+    font-style: italic;
+    color: brown;
+}
+.servicos li:hover{
+    font-size: 40px;
+    color: blueviolet;
+}
+.servicos li:active{
+    border-color: brown;
+    border-width: 4px;
+}
+.servicos{
+    width: 1060px;
+    margin: 0 auto;
+
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: burlywood;
+    padding: 40px; ;
+}
+
+footer img{
+    width: 10%;
+    border-color: lime;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 15px;
+    width: 12%;
+
+}
+
+.copyright{
+    font-size: 25px;
+    margin: 20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
